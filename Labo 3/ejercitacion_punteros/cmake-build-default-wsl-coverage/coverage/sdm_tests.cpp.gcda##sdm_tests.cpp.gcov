@@ -1,0 +1,1868 @@
+        -:    0:Source:/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 3/ejercitacion_punteros/tests/sdm_tests.cpp
+        -:    0:Graph:/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 3/ejercitacion_punteros/cmake-build-default-wsl-coverage/CMakeFiles/ej6.dir/tests/sdm_tests.cpp.gcno
+        -:    0:Data:/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 3/ejercitacion_punteros/cmake-build-default-wsl-coverage/CMakeFiles/ej6.dir/tests/sdm_tests.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "gtest-1.8.1/gtest.h"
+        -:    2:
+        -:    3:#include "../src/SistemaDeMensajes.h"
+        -:    4:#include "../src/Internet.h"
+        -:    5:
+        -:    6:#if EJ >= 1
+        -:    7:
+        2:    8:TEST(SistemaDeMensajes, constructor) {
+        1:    9:  SistemaDeMensajes sdm;
+       1*:   10:  ASSERT_FALSE(sdm.registrado(0));
+       1*:   11:  ASSERT_FALSE(sdm.registrado(1));
+       1*:   12:  ASSERT_FALSE(sdm.registrado(2));
+       1*:   13:  ASSERT_FALSE(sdm.registrado(3));
+        -:   14:}
+------------------
+_ZN34SistemaDeMensajes_constructor_Test8TestBodyEv:
+function _ZN34SistemaDeMensajes_constructor_Test8TestBodyEv called 1 returned 100% blocks executed 26%
+        1:    8:TEST(SistemaDeMensajes, constructor) {
+        1:    9:  SistemaDeMensajes sdm;
+        1:    9-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+    $$$$$:    9-block  1
+call    3 never executed
+       1*:   10:  ASSERT_FALSE(sdm.registrado(0));
+        1:   10-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   10-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   10-block  2
+call    6 returned 1
+branch  7 taken 0 (fallthrough)
+branch  8 taken 1
+    %%%%%:   10-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   10-block  4
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   10-block  5
+call   15 never executed
+call   16 never executed
+branch 17 never executed
+branch 18 never executed
+    %%%%%:   10-block  6
+call   19 never executed
+branch 20 never executed
+branch 21 never executed
+    %%%%%:   10-block  7
+call   22 never executed
+call   23 never executed
+call   24 never executed
+    $$$$$:   10-block  8
+    $$$$$:   10-block  9
+call   25 never executed
+    $$$$$:   10-block 10
+    $$$$$:   10-block 11
+call   26 never executed
+    $$$$$:   10-block 12
+    $$$$$:   10-block 13
+call   27 never executed
+    $$$$$:   10-block 14
+    $$$$$:   10-block 15
+call   28 never executed
+       1*:   11:  ASSERT_FALSE(sdm.registrado(1));
+        1:   11-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   11-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   11-block  2
+call    6 returned 1
+branch  7 taken 0 (fallthrough)
+branch  8 taken 1
+    %%%%%:   11-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   11-block  4
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   11-block  5
+call   15 never executed
+call   16 never executed
+branch 17 never executed
+branch 18 never executed
+    %%%%%:   11-block  6
+call   19 never executed
+branch 20 never executed
+branch 21 never executed
+    %%%%%:   11-block  7
+call   22 never executed
+call   23 never executed
+call   24 never executed
+    $$$$$:   11-block  8
+    $$$$$:   11-block  9
+call   25 never executed
+    $$$$$:   11-block 10
+    $$$$$:   11-block 11
+call   26 never executed
+    $$$$$:   11-block 12
+    $$$$$:   11-block 13
+call   27 never executed
+    $$$$$:   11-block 14
+    $$$$$:   11-block 15
+call   28 never executed
+       1*:   12:  ASSERT_FALSE(sdm.registrado(2));
+        1:   12-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   12-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   12-block  2
+call    6 returned 1
+branch  7 taken 0 (fallthrough)
+branch  8 taken 1
+    %%%%%:   12-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   12-block  4
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   12-block  5
+call   15 never executed
+call   16 never executed
+branch 17 never executed
+branch 18 never executed
+    %%%%%:   12-block  6
+call   19 never executed
+branch 20 never executed
+branch 21 never executed
+    %%%%%:   12-block  7
+call   22 never executed
+call   23 never executed
+call   24 never executed
+    $$$$$:   12-block  8
+    $$$$$:   12-block  9
+call   25 never executed
+    $$$$$:   12-block 10
+    $$$$$:   12-block 11
+call   26 never executed
+    $$$$$:   12-block 12
+    $$$$$:   12-block 13
+call   27 never executed
+    $$$$$:   12-block 14
+    $$$$$:   12-block 15
+call   28 never executed
+       1*:   13:  ASSERT_FALSE(sdm.registrado(3));
+        1:   13-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   13-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   13-block  2
+call    6 returned 1
+branch  7 taken 0 (fallthrough)
+branch  8 taken 1
+    %%%%%:   13-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   13-block  4
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   13-block  5
+call   15 never executed
+call   16 never executed
+branch 17 never executed
+branch 18 never executed
+    %%%%%:   13-block  6
+call   19 never executed
+branch 20 never executed
+branch 21 never executed
+    %%%%%:   13-block  7
+call   22 never executed
+call   23 never executed
+call   24 never executed
+    $$$$$:   13-block  8
+    $$$$$:   13-block  9
+call   25 never executed
+    $$$$$:   13-block 10
+    $$$$$:   13-block 11
+call   26 never executed
+    $$$$$:   13-block 12
+    $$$$$:   13-block 13
+call   27 never executed
+    $$$$$:   13-block 14
+    $$$$$:   13-block 15
+call   28 never executed
+        -:   14:}
+------------------
+_ZN34SistemaDeMensajes_constructor_TestC2Ev:
+function _ZN34SistemaDeMensajes_constructor_TestC2Ev called 1 returned 100% blocks executed 100%
+        1:    8:TEST(SistemaDeMensajes, constructor) {
+        1:    8-block  0
+call    0 returned 1
+------------------
+        -:   15:
+        2:   16:TEST(SistemaDeMensajes, destructor) {
+        1:   17:  SistemaDeMensajes sdm;
+        1:   18:}
+------------------
+_ZN33SistemaDeMensajes_destructor_Test8TestBodyEv:
+function _ZN33SistemaDeMensajes_destructor_Test8TestBodyEv called 1 returned 100% blocks executed 100%
+        1:   16:TEST(SistemaDeMensajes, destructor) {
+        1:   17:  SistemaDeMensajes sdm;
+        1:   17-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   17-block  1
+call    3 returned 1
+        1:   18:}
+------------------
+_ZN33SistemaDeMensajes_destructor_TestC2Ev:
+function _ZN33SistemaDeMensajes_destructor_TestC2Ev called 1 returned 100% blocks executed 100%
+        1:   16:TEST(SistemaDeMensajes, destructor) {
+        1:   16-block  0
+call    0 returned 1
+------------------
+        -:   19:
+        2:   20:TEST(SistemaDeMensajes, registrarJugador) {
+        1:   21:  SistemaDeMensajes sdm;
+       1*:   22:  ASSERT_FALSE(sdm.registrado(0));
+       1*:   23:  ASSERT_FALSE(sdm.registrado(1));
+        1:   24:  sdm.registrarJugador(0, "IP1");
+       1*:   25:  ASSERT_TRUE(sdm.registrado(0));
+       2*:   26:  ASSERT_EQ(sdm.ipJugador(0), "IP1");
+       1*:   27:  ASSERT_FALSE(sdm.registrado(1));
+        -:   28:}
+------------------
+_ZN39SistemaDeMensajes_registrarJugador_Test8TestBodyEv:
+function _ZN39SistemaDeMensajes_registrarJugador_Test8TestBodyEv called 1 returned 100% blocks executed 28%
+        1:   20:TEST(SistemaDeMensajes, registrarJugador) {
+        1:   21:  SistemaDeMensajes sdm;
+        1:   21-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+    $$$$$:   21-block  1
+call    3 never executed
+       1*:   22:  ASSERT_FALSE(sdm.registrado(0));
+        1:   22-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   22-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   22-block  2
+call    6 returned 1
+branch  7 taken 0 (fallthrough)
+branch  8 taken 1
+    %%%%%:   22-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   22-block  4
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   22-block  5
+call   15 never executed
+call   16 never executed
+branch 17 never executed
+branch 18 never executed
+    %%%%%:   22-block  6
+call   19 never executed
+branch 20 never executed
+branch 21 never executed
+    %%%%%:   22-block  7
+call   22 never executed
+call   23 never executed
+call   24 never executed
+    $$$$$:   22-block  8
+    $$$$$:   22-block  9
+call   25 never executed
+    $$$$$:   22-block 10
+    $$$$$:   22-block 11
+call   26 never executed
+    $$$$$:   22-block 12
+    $$$$$:   22-block 13
+call   27 never executed
+    $$$$$:   22-block 14
+    $$$$$:   22-block 15
+call   28 never executed
+       1*:   23:  ASSERT_FALSE(sdm.registrado(1));
+        1:   23-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   23-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   23-block  2
+call    6 returned 1
+branch  7 taken 0 (fallthrough)
+branch  8 taken 1
+    %%%%%:   23-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   23-block  4
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   23-block  5
+call   15 never executed
+call   16 never executed
+branch 17 never executed
+branch 18 never executed
+    %%%%%:   23-block  6
+call   19 never executed
+branch 20 never executed
+branch 21 never executed
+    %%%%%:   23-block  7
+call   22 never executed
+call   23 never executed
+call   24 never executed
+    $$$$$:   23-block  8
+    $$$$$:   23-block  9
+call   25 never executed
+    $$$$$:   23-block 10
+    $$$$$:   23-block 11
+call   26 never executed
+    $$$$$:   23-block 12
+    $$$$$:   23-block 13
+call   27 never executed
+    $$$$$:   23-block 14
+    $$$$$:   23-block 15
+call   28 never executed
+        1:   24:  sdm.registrarJugador(0, "IP1");
+        1:   24-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   24-block  1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   24-block  2
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   24-block  3
+call    9 never executed
+    $$$$$:   24-block  4
+    $$$$$:   24-block  5
+call   10 never executed
+    $$$$$:   24-block  6
+       1*:   25:  ASSERT_TRUE(sdm.registrado(0));
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   25-block  0
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   25-block  1
+call    6 returned 1
+branch  7 taken 0 (fallthrough)
+branch  8 taken 1
+    %%%%%:   25-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   25-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   25-block  4
+call   15 never executed
+call   16 never executed
+branch 17 never executed
+branch 18 never executed
+    %%%%%:   25-block  5
+call   19 never executed
+branch 20 never executed
+branch 21 never executed
+    %%%%%:   25-block  6
+call   22 never executed
+call   23 never executed
+call   24 never executed
+    $$$$$:   25-block  7
+    $$$$$:   25-block  8
+call   25 never executed
+    $$$$$:   25-block  9
+    $$$$$:   25-block 10
+call   26 never executed
+    $$$$$:   25-block 11
+    $$$$$:   25-block 12
+call   27 never executed
+    $$$$$:   25-block 13
+    $$$$$:   25-block 14
+call   28 never executed
+       2*:   26:  ASSERT_EQ(sdm.ipJugador(0), "IP1");
+        1:   26-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   26-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+call    6 returned 1
+branch  7 taken 0 (fallthrough)
+branch  8 taken 1
+    %%%%%:   26-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   26-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   26-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   26-block  5
+call   18 never executed
+branch 19 never executed
+branch 20 never executed
+    %%%%%:   26-block  6
+call   21 never executed
+call   22 never executed
+    $$$$$:   26-block  7
+    $$$$$:   26-block  8
+call   23 never executed
+    $$$$$:   26-block  9
+    $$$$$:   26-block 10
+call   24 never executed
+    $$$$$:   26-block 11
+    $$$$$:   26-block 12
+call   25 never executed
+       1*:   27:  ASSERT_FALSE(sdm.registrado(1));
+        1:   27-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   27-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   27-block  2
+call    6 returned 1
+branch  7 taken 0 (fallthrough)
+branch  8 taken 1
+    %%%%%:   27-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   27-block  4
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   27-block  5
+call   15 never executed
+call   16 never executed
+branch 17 never executed
+branch 18 never executed
+    %%%%%:   27-block  6
+call   19 never executed
+branch 20 never executed
+branch 21 never executed
+    %%%%%:   27-block  7
+call   22 never executed
+call   23 never executed
+call   24 never executed
+    $$$$$:   27-block  8
+    $$$$$:   27-block  9
+call   25 never executed
+    $$$$$:   27-block 10
+    $$$$$:   27-block 11
+call   26 never executed
+    $$$$$:   27-block 12
+    $$$$$:   27-block 13
+call   27 never executed
+    $$$$$:   27-block 14
+    $$$$$:   27-block 15
+call   28 never executed
+        -:   28:}
+------------------
+_ZN39SistemaDeMensajes_registrarJugador_TestC2Ev:
+function _ZN39SistemaDeMensajes_registrarJugador_TestC2Ev called 1 returned 100% blocks executed 100%
+        1:   20:TEST(SistemaDeMensajes, registrarJugador) {
+        1:   20-block  0
+call    0 returned 1
+------------------
+        -:   29:
+        2:   30:TEST(SistemaDeMensajes, enviar_mensaje) {
+        1:   31:  Internet::internet().limpiar();
+        -:   32:
+        1:   33:  SistemaDeMensajes sdm;
+        1:   34:  sdm.registrarJugador(0, "IP1");
+        1:   35:  sdm.enviarMensaje(0, "A");
+        -:   36:
+       4*:   37:  ASSERT_EQ(Internet::internet().mensajes(), list<Msg>({{"IP1", "A"}}));
+        1:   38:  sdm.enviarMensaje(0, "B");
+       5*:   39:  ASSERT_EQ(Internet::internet().mensajes(), list<Msg>({{"IP1", "A"}, {"IP1", "B"}}));
+        -:   40:}
+------------------
+_ZN37SistemaDeMensajes_enviar_mensaje_Test8TestBodyEv:
+function _ZN37SistemaDeMensajes_enviar_mensaje_Test8TestBodyEv called 1 returned 100% blocks executed 43%
+        1:   30:TEST(SistemaDeMensajes, enviar_mensaje) {
+        1:   31:  Internet::internet().limpiar();
+        1:   31-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   31-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        -:   32:
+        1:   33:  SistemaDeMensajes sdm;
+        1:   33-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+    $$$$$:   33-block  1
+call    3 never executed
+        1:   34:  sdm.registrarJugador(0, "IP1");
+        1:   34-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   34-block  1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   34-block  2
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   34-block  3
+call    9 never executed
+    $$$$$:   34-block  4
+    $$$$$:   34-block  5
+call   10 never executed
+    $$$$$:   34-block  6
+        1:   35:  sdm.enviarMensaje(0, "A");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   35-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   35-block  1
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   35-block  2
+call    9 never executed
+    $$$$$:   35-block  3
+    $$$$$:   35-block  4
+call   10 never executed
+    $$$$$:   35-block  5
+        -:   36:
+       4*:   37:  ASSERT_EQ(Internet::internet().mensajes(), list<Msg>({{"IP1", "A"}}));
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   37-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   37-block  1
+call    7 returned 1
+branch  8 taken 1 (fallthrough)
+branch  9 taken 0 (throw)
+        1:   37-block  2
+call   10 returned 1
+branch 11 taken 1 (fallthrough)
+branch 12 taken 0 (throw)
+        1:   37-block  3
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:   37-block  4
+call   16 returned 1
+        1:   37-block  5
+call   17 returned 1
+call   18 returned 1
+branch 19 taken 0 (fallthrough)
+branch 20 taken 1
+    %%%%%:   37-block  6
+call   21 never executed
+branch 22 never executed
+branch 23 never executed
+    %%%%%:   37-block  7
+call   24 never executed
+branch 25 never executed
+branch 26 never executed
+    %%%%%:   37-block  8
+call   27 never executed
+branch 28 never executed
+branch 29 never executed
+    %%%%%:   37-block  9
+call   30 never executed
+branch 31 never executed
+branch 32 never executed
+    %%%%%:   37-block 10
+call   33 never executed
+call   34 never executed
+    $$$$$:   37-block 11
+    $$$$$:   37-block 12
+call   35 never executed
+    $$$$$:   37-block 13
+    $$$$$:   37-block 14
+    $$$$$:   37-block 15
+call   36 never executed
+    $$$$$:   37-block 16
+    $$$$$:   37-block 17
+call   37 never executed
+    $$$$$:   37-block 18
+    $$$$$:   37-block 19
+call   38 never executed
+        1:   38:  sdm.enviarMensaje(0, "B");
+        1:   38-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   38-block  1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   38-block  2
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   38-block  3
+call    9 never executed
+    $$$$$:   38-block  4
+    $$$$$:   38-block  5
+call   10 never executed
+    $$$$$:   38-block  6
+       5*:   39:  ASSERT_EQ(Internet::internet().mensajes(), list<Msg>({{"IP1", "A"}, {"IP1", "B"}}));
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   39-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   39-block  1
+call    7 returned 1
+branch  8 taken 1 (fallthrough)
+branch  9 taken 0 (throw)
+        1:   39-block  2
+call   10 returned 1
+branch 11 taken 1 (fallthrough)
+branch 12 taken 0 (throw)
+        1:   39-block  3
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:   39-block  4
+call   16 returned 1
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0 (throw)
+        2:   39-block  5
+call   19 returned 2
+        1:   39-block  6
+call   20 returned 1
+call   21 returned 1
+branch 22 taken 0 (fallthrough)
+branch 23 taken 1
+    %%%%%:   39-block  7
+call   24 never executed
+branch 25 never executed
+branch 26 never executed
+    %%%%%:   39-block  8
+call   27 never executed
+branch 28 never executed
+branch 29 never executed
+    %%%%%:   39-block  9
+call   30 never executed
+branch 31 never executed
+branch 32 never executed
+    %%%%%:   39-block 10
+call   33 never executed
+branch 34 never executed
+branch 35 never executed
+    %%%%%:   39-block 11
+call   36 never executed
+call   37 never executed
+    $$$$$:   39-block 12
+    $$$$$:   39-block 13
+call   38 never executed
+    $$$$$:   39-block 14
+    $$$$$:   39-block 15
+    $$$$$:   39-block 16
+call   39 never executed
+    $$$$$:   39-block 17
+    $$$$$:   39-block 18
+call   40 never executed
+    $$$$$:   39-block 19
+    $$$$$:   39-block 20
+call   41 never executed
+        -:   40:}
+------------------
+_ZN37SistemaDeMensajes_enviar_mensaje_TestC2Ev:
+function _ZN37SistemaDeMensajes_enviar_mensaje_TestC2Ev called 1 returned 100% blocks executed 100%
+        1:   30:TEST(SistemaDeMensajes, enviar_mensaje) {
+        1:   30-block  0
+call    0 returned 1
+------------------
+        -:   41:
+        2:   42:TEST(SistemaDeMensajes, enviar_mensaje_distintos_jugadores) {
+        1:   43:  Internet::internet().limpiar();
+        -:   44:
+        1:   45:  SistemaDeMensajes sdm;
+        1:   46:  sdm.registrarJugador(0, "IP1");
+        1:   47:  sdm.registrarJugador(3, "IP3");
+        1:   48:  sdm.enviarMensaje(0, "A");
+        1:   49:  sdm.enviarMensaje(3, "B");
+        1:   50:  sdm.enviarMensaje(0, "C");
+        -:   51:
+       6*:   52:  ASSERT_EQ(Internet::internet().mensajes(), list<Msg>({
+        -:   53:      {"IP1", "A"},
+        -:   54:      {"IP3", "B"},
+        -:   55:      {"IP1", "C"},
+        -:   56:      }));
+        -:   57:}
+------------------
+_ZN57SistemaDeMensajes_enviar_mensaje_distintos_jugadores_Test8TestBodyEv:
+function _ZN57SistemaDeMensajes_enviar_mensaje_distintos_jugadores_Test8TestBodyEv called 1 returned 100% blocks executed 46%
+        1:   42:TEST(SistemaDeMensajes, enviar_mensaje_distintos_jugadores) {
+        1:   43:  Internet::internet().limpiar();
+        1:   43-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   43-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        -:   44:
+        1:   45:  SistemaDeMensajes sdm;
+        1:   45-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+    $$$$$:   45-block  1
+call    3 never executed
+        1:   46:  sdm.registrarJugador(0, "IP1");
+        1:   46-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   46-block  1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   46-block  2
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   46-block  3
+call    9 never executed
+    $$$$$:   46-block  4
+    $$$$$:   46-block  5
+call   10 never executed
+    $$$$$:   46-block  6
+        1:   47:  sdm.registrarJugador(3, "IP3");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   47-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   47-block  1
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   47-block  2
+call    9 never executed
+    $$$$$:   47-block  3
+    $$$$$:   47-block  4
+call   10 never executed
+    $$$$$:   47-block  5
+        1:   48:  sdm.enviarMensaje(0, "A");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   48-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   48-block  1
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   48-block  2
+call    9 never executed
+    $$$$$:   48-block  3
+    $$$$$:   48-block  4
+call   10 never executed
+    $$$$$:   48-block  5
+        1:   49:  sdm.enviarMensaje(3, "B");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   49-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   49-block  1
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   49-block  2
+call    9 never executed
+    $$$$$:   49-block  3
+    $$$$$:   49-block  4
+call   10 never executed
+    $$$$$:   49-block  5
+        1:   50:  sdm.enviarMensaje(0, "C");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   50-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   50-block  1
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   50-block  2
+call    9 never executed
+    $$$$$:   50-block  3
+    $$$$$:   50-block  4
+call   10 never executed
+    $$$$$:   50-block  5
+        -:   51:
+       6*:   52:  ASSERT_EQ(Internet::internet().mensajes(), list<Msg>({
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   52-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   52-block  1
+call    7 returned 1
+branch  8 taken 1 (fallthrough)
+branch  9 taken 0 (throw)
+        1:   52-block  2
+call   10 returned 1
+branch 11 taken 1 (fallthrough)
+branch 12 taken 0 (throw)
+        1:   52-block  3
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:   52-block  4
+call   16 returned 1
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0 (throw)
+        1:   52-block  5
+call   19 returned 1
+branch 20 taken 1 (fallthrough)
+branch 21 taken 0 (throw)
+        3:   52-block  6
+call   22 returned 3
+        1:   52-block  7
+call   23 returned 1
+call   24 returned 1
+branch 25 taken 0 (fallthrough)
+branch 26 taken 1
+    %%%%%:   52-block  8
+call   27 never executed
+branch 28 never executed
+branch 29 never executed
+    %%%%%:   52-block  9
+call   30 never executed
+branch 31 never executed
+branch 32 never executed
+    %%%%%:   52-block 10
+call   33 never executed
+branch 34 never executed
+branch 35 never executed
+    %%%%%:   52-block 11
+call   36 never executed
+branch 37 never executed
+branch 38 never executed
+    %%%%%:   52-block 12
+call   39 never executed
+call   40 never executed
+    $$$$$:   52-block 13
+    $$$$$:   52-block 14
+call   41 never executed
+    $$$$$:   52-block 15
+    $$$$$:   52-block 16
+    $$$$$:   52-block 17
+call   42 never executed
+    $$$$$:   52-block 18
+    $$$$$:   52-block 19
+call   43 never executed
+    $$$$$:   52-block 20
+    $$$$$:   52-block 21
+call   44 never executed
+        -:   53:      {"IP1", "A"},
+        -:   54:      {"IP3", "B"},
+        -:   55:      {"IP1", "C"},
+        -:   56:      }));
+        -:   57:}
+------------------
+_ZN57SistemaDeMensajes_enviar_mensaje_distintos_jugadores_TestC2Ev:
+function _ZN57SistemaDeMensajes_enviar_mensaje_distintos_jugadores_TestC2Ev called 1 returned 100% blocks executed 100%
+        1:   42:TEST(SistemaDeMensajes, enviar_mensaje_distintos_jugadores) {
+        1:   42-block  0
+call    0 returned 1
+------------------
+        -:   58:
+        -:   59:#endif
+        -:   60:
+        -:   61:#if EJ >= 3
+        -:   62:
+        2:   63:TEST(SistemaDeMensajes, borrar_ip) {
+        1:   64:    SistemaDeMensajes sdm;
+        1:   65:    sdm.registrarJugador(0, "IP0");
+       1*:   66:    ASSERT_TRUE(sdm.registrado(0));
+        1:   67:    sdm.desregistrarJugador(0);
+       1*:   68:    ASSERT_FALSE(sdm.registrado(0));
+        -:   69:}
+------------------
+_ZN32SistemaDeMensajes_borrar_ip_Test8TestBodyEv:
+function _ZN32SistemaDeMensajes_borrar_ip_Test8TestBodyEv called 1 returned 100% blocks executed 32%
+        1:   63:TEST(SistemaDeMensajes, borrar_ip) {
+        1:   64:    SistemaDeMensajes sdm;
+        1:   64-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+    $$$$$:   64-block  1
+call    3 never executed
+        1:   65:    sdm.registrarJugador(0, "IP0");
+        1:   65-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   65-block  1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   65-block  2
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   65-block  3
+call    9 never executed
+    $$$$$:   65-block  4
+    $$$$$:   65-block  5
+call   10 never executed
+    $$$$$:   65-block  6
+       1*:   66:    ASSERT_TRUE(sdm.registrado(0));
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   66-block  0
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   66-block  1
+call    6 returned 1
+branch  7 taken 0 (fallthrough)
+branch  8 taken 1
+    %%%%%:   66-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   66-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   66-block  4
+call   15 never executed
+call   16 never executed
+branch 17 never executed
+branch 18 never executed
+    %%%%%:   66-block  5
+call   19 never executed
+branch 20 never executed
+branch 21 never executed
+    %%%%%:   66-block  6
+call   22 never executed
+call   23 never executed
+call   24 never executed
+    $$$$$:   66-block  7
+    $$$$$:   66-block  8
+call   25 never executed
+    $$$$$:   66-block  9
+    $$$$$:   66-block 10
+call   26 never executed
+    $$$$$:   66-block 11
+    $$$$$:   66-block 12
+call   27 never executed
+    $$$$$:   66-block 13
+    $$$$$:   66-block 14
+call   28 never executed
+        1:   67:    sdm.desregistrarJugador(0);
+        1:   67-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+       1*:   68:    ASSERT_FALSE(sdm.registrado(0));
+        1:   68-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   68-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   68-block  2
+call    6 returned 1
+branch  7 taken 0 (fallthrough)
+branch  8 taken 1
+    %%%%%:   68-block  3
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   68-block  4
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   68-block  5
+call   15 never executed
+call   16 never executed
+branch 17 never executed
+branch 18 never executed
+    %%%%%:   68-block  6
+call   19 never executed
+branch 20 never executed
+branch 21 never executed
+    %%%%%:   68-block  7
+call   22 never executed
+call   23 never executed
+call   24 never executed
+    $$$$$:   68-block  8
+    $$$$$:   68-block  9
+call   25 never executed
+    $$$$$:   68-block 10
+    $$$$$:   68-block 11
+call   26 never executed
+    $$$$$:   68-block 12
+    $$$$$:   68-block 13
+call   27 never executed
+    $$$$$:   68-block 14
+    $$$$$:   68-block 15
+call   28 never executed
+        -:   69:}
+------------------
+_ZN32SistemaDeMensajes_borrar_ip_TestC2Ev:
+function _ZN32SistemaDeMensajes_borrar_ip_TestC2Ev called 1 returned 100% blocks executed 100%
+        1:   63:TEST(SistemaDeMensajes, borrar_ip) {
+        1:   63-block  0
+call    0 returned 1
+------------------
+        -:   70:
+        2:   71:TEST(SistemaDeMensajes, cambiar_ip) {
+        1:   72:  SistemaDeMensajes sdm;
+        1:   73:  sdm.registrarJugador(0, "IP1");
+       1*:   74:  ASSERT_TRUE(sdm.registrado(0));
+       2*:   75:  ASSERT_EQ(sdm.ipJugador(0), "IP1");
+        1:   76:  sdm.registrarJugador(0, "IP2");
+       2*:   77:  ASSERT_EQ(sdm.ipJugador(0), "IP2");
+        -:   78:}
+------------------
+_ZN33SistemaDeMensajes_cambiar_ip_Test8TestBodyEv:
+function _ZN33SistemaDeMensajes_cambiar_ip_Test8TestBodyEv called 1 returned 100% blocks executed 34%
+        1:   71:TEST(SistemaDeMensajes, cambiar_ip) {
+        1:   72:  SistemaDeMensajes sdm;
+        1:   72-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+    $$$$$:   72-block  1
+call    3 never executed
+        1:   73:  sdm.registrarJugador(0, "IP1");
+        1:   73-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   73-block  1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   73-block  2
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   73-block  3
+call    9 never executed
+    $$$$$:   73-block  4
+    $$$$$:   73-block  5
+call   10 never executed
+    $$$$$:   73-block  6
+       1*:   74:  ASSERT_TRUE(sdm.registrado(0));
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   74-block  0
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        1:   74-block  1
+call    6 returned 1
+branch  7 taken 0 (fallthrough)
+branch  8 taken 1
+    %%%%%:   74-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   74-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   74-block  4
+call   15 never executed
+call   16 never executed
+branch 17 never executed
+branch 18 never executed
+    %%%%%:   74-block  5
+call   19 never executed
+branch 20 never executed
+branch 21 never executed
+    %%%%%:   74-block  6
+call   22 never executed
+call   23 never executed
+call   24 never executed
+    $$$$$:   74-block  7
+    $$$$$:   74-block  8
+call   25 never executed
+    $$$$$:   74-block  9
+    $$$$$:   74-block 10
+call   26 never executed
+    $$$$$:   74-block 11
+    $$$$$:   74-block 12
+call   27 never executed
+    $$$$$:   74-block 13
+    $$$$$:   74-block 14
+call   28 never executed
+       2*:   75:  ASSERT_EQ(sdm.ipJugador(0), "IP1");
+        1:   75-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   75-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+call    6 returned 1
+branch  7 taken 0 (fallthrough)
+branch  8 taken 1
+    %%%%%:   75-block  2
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   75-block  3
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   75-block  4
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   75-block  5
+call   18 never executed
+branch 19 never executed
+branch 20 never executed
+    %%%%%:   75-block  6
+call   21 never executed
+call   22 never executed
+    $$$$$:   75-block  7
+    $$$$$:   75-block  8
+call   23 never executed
+    $$$$$:   75-block  9
+    $$$$$:   75-block 10
+call   24 never executed
+    $$$$$:   75-block 11
+    $$$$$:   75-block 12
+call   25 never executed
+        1:   76:  sdm.registrarJugador(0, "IP2");
+        1:   76-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   76-block  1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   76-block  2
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   76-block  3
+call    9 never executed
+    $$$$$:   76-block  4
+    $$$$$:   76-block  5
+call   10 never executed
+    $$$$$:   76-block  6
+       2*:   77:  ASSERT_EQ(sdm.ipJugador(0), "IP2");
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   77-block  0
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+call    6 returned 1
+branch  7 taken 0 (fallthrough)
+branch  8 taken 1
+    %%%%%:   77-block  1
+call    9 never executed
+branch 10 never executed
+branch 11 never executed
+    %%%%%:   77-block  2
+call   12 never executed
+branch 13 never executed
+branch 14 never executed
+    %%%%%:   77-block  3
+call   15 never executed
+branch 16 never executed
+branch 17 never executed
+    %%%%%:   77-block  4
+call   18 never executed
+branch 19 never executed
+branch 20 never executed
+    %%%%%:   77-block  5
+call   21 never executed
+call   22 never executed
+    $$$$$:   77-block  6
+    $$$$$:   77-block  7
+call   23 never executed
+    $$$$$:   77-block  8
+    $$$$$:   77-block  9
+call   24 never executed
+    $$$$$:   77-block 10
+    $$$$$:   77-block 11
+call   25 never executed
+        -:   78:}
+------------------
+_ZN33SistemaDeMensajes_cambiar_ip_TestC2Ev:
+function _ZN33SistemaDeMensajes_cambiar_ip_TestC2Ev called 1 returned 100% blocks executed 100%
+        1:   71:TEST(SistemaDeMensajes, cambiar_ip) {
+        1:   71-block  0
+call    0 returned 1
+------------------
+        -:   79:
+        -:   80:
+        2:   81:TEST(SistemaDeMensajes, mensaje_cambio_ip) {
+        1:   82:  Internet::internet().limpiar();
+        -:   83:
+        1:   84:  SistemaDeMensajes sdm;
+        1:   85:  sdm.registrarJugador(0, "IP1");
+        1:   86:  sdm.registrarJugador(3, "IP3");
+        1:   87:  sdm.enviarMensaje(0, "A");
+        1:   88:  sdm.enviarMensaje(3, "B");
+        1:   89:  sdm.enviarMensaje(0, "C");
+        -:   90:
+       6*:   91:  ASSERT_EQ(Internet::internet().mensajes(), list<Msg>({
+        -:   92:      {"IP1", "A"},
+        -:   93:      {"IP3", "B"},
+        -:   94:      {"IP1", "C"},
+        -:   95:      }));
+        -:   96:
+        1:   97:  sdm.registrarJugador(0, "IP1.1");
+        1:   98:  sdm.enviarMensaje(0, "A");
+        1:   99:  sdm.enviarMensaje(3, "B2");
+       8*:  100:  ASSERT_EQ(Internet::internet().mensajes(), list<Msg>({
+        -:  101:      {"IP1", "A"},
+        -:  102:      {"IP3", "B"},
+        -:  103:      {"IP1", "C"},
+        -:  104:      {"IP1.1", "A"},
+        -:  105:      {"IP3", "B2"},
+        -:  106:      }));
+        -:  107:}
+------------------
+_ZN40SistemaDeMensajes_mensaje_cambio_ip_Test8TestBodyEv:
+function _ZN40SistemaDeMensajes_mensaje_cambio_ip_Test8TestBodyEv called 1 returned 100% blocks executed 45%
+        1:   81:TEST(SistemaDeMensajes, mensaje_cambio_ip) {
+        1:   82:  Internet::internet().limpiar();
+        1:   82-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:   82-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        -:   83:
+        1:   84:  SistemaDeMensajes sdm;
+        1:   84-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+    $$$$$:   84-block  1
+call    3 never executed
+        1:   85:  sdm.registrarJugador(0, "IP1");
+        1:   85-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   85-block  1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   85-block  2
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   85-block  3
+call    9 never executed
+    $$$$$:   85-block  4
+    $$$$$:   85-block  5
+call   10 never executed
+    $$$$$:   85-block  6
+        1:   86:  sdm.registrarJugador(3, "IP3");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   86-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   86-block  1
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   86-block  2
+call    9 never executed
+    $$$$$:   86-block  3
+    $$$$$:   86-block  4
+call   10 never executed
+    $$$$$:   86-block  5
+        1:   87:  sdm.enviarMensaje(0, "A");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   87-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   87-block  1
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   87-block  2
+call    9 never executed
+    $$$$$:   87-block  3
+    $$$$$:   87-block  4
+call   10 never executed
+    $$$$$:   87-block  5
+        1:   88:  sdm.enviarMensaje(3, "B");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   88-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   88-block  1
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   88-block  2
+call    9 never executed
+    $$$$$:   88-block  3
+    $$$$$:   88-block  4
+call   10 never executed
+    $$$$$:   88-block  5
+        1:   89:  sdm.enviarMensaje(0, "C");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   89-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   89-block  1
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   89-block  2
+call    9 never executed
+    $$$$$:   89-block  3
+    $$$$$:   89-block  4
+call   10 never executed
+    $$$$$:   89-block  5
+        -:   90:
+       6*:   91:  ASSERT_EQ(Internet::internet().mensajes(), list<Msg>({
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   91-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   91-block  1
+call    7 returned 1
+branch  8 taken 1 (fallthrough)
+branch  9 taken 0 (throw)
+        1:   91-block  2
+call   10 returned 1
+branch 11 taken 1 (fallthrough)
+branch 12 taken 0 (throw)
+        1:   91-block  3
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:   91-block  4
+call   16 returned 1
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0 (throw)
+        1:   91-block  5
+call   19 returned 1
+branch 20 taken 1 (fallthrough)
+branch 21 taken 0 (throw)
+        3:   91-block  6
+call   22 returned 3
+        1:   91-block  7
+call   23 returned 1
+call   24 returned 1
+branch 25 taken 0 (fallthrough)
+branch 26 taken 1
+    %%%%%:   91-block  8
+call   27 never executed
+branch 28 never executed
+branch 29 never executed
+    %%%%%:   91-block  9
+call   30 never executed
+branch 31 never executed
+branch 32 never executed
+    %%%%%:   91-block 10
+call   33 never executed
+branch 34 never executed
+branch 35 never executed
+    %%%%%:   91-block 11
+call   36 never executed
+branch 37 never executed
+branch 38 never executed
+    %%%%%:   91-block 12
+call   39 never executed
+call   40 never executed
+    $$$$$:   91-block 13
+    $$$$$:   91-block 14
+call   41 never executed
+    $$$$$:   91-block 15
+    $$$$$:   91-block 16
+    $$$$$:   91-block 17
+call   42 never executed
+    $$$$$:   91-block 18
+    $$$$$:   91-block 19
+call   43 never executed
+    $$$$$:   91-block 20
+    $$$$$:   91-block 21
+call   44 never executed
+        -:   92:      {"IP1", "A"},
+        -:   93:      {"IP3", "B"},
+        -:   94:      {"IP1", "C"},
+        -:   95:      }));
+        -:   96:
+        1:   97:  sdm.registrarJugador(0, "IP1.1");
+        1:   97-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   97-block  1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   97-block  2
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   97-block  3
+call    9 never executed
+    $$$$$:   97-block  4
+    $$$$$:   97-block  5
+call   10 never executed
+    $$$$$:   97-block  6
+        1:   98:  sdm.enviarMensaje(0, "A");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   98-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   98-block  1
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   98-block  2
+call    9 never executed
+    $$$$$:   98-block  3
+    $$$$$:   98-block  4
+call   10 never executed
+    $$$$$:   98-block  5
+        1:   99:  sdm.enviarMensaje(3, "B2");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:   99-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:   99-block  1
+call    7 returned 1
+call    8 returned 1
+    $$$$$:   99-block  2
+call    9 never executed
+    $$$$$:   99-block  3
+    $$$$$:   99-block  4
+call   10 never executed
+    $$$$$:   99-block  5
+       8*:  100:  ASSERT_EQ(Internet::internet().mensajes(), list<Msg>({
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  100-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:  100-block  1
+call    7 returned 1
+branch  8 taken 1 (fallthrough)
+branch  9 taken 0 (throw)
+        1:  100-block  2
+call   10 returned 1
+branch 11 taken 1 (fallthrough)
+branch 12 taken 0 (throw)
+        1:  100-block  3
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:  100-block  4
+call   16 returned 1
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0 (throw)
+        1:  100-block  5
+call   19 returned 1
+branch 20 taken 1 (fallthrough)
+branch 21 taken 0 (throw)
+        1:  100-block  6
+call   22 returned 1
+branch 23 taken 1 (fallthrough)
+branch 24 taken 0 (throw)
+        1:  100-block  7
+call   25 returned 1
+branch 26 taken 1 (fallthrough)
+branch 27 taken 0 (throw)
+        5:  100-block  8
+call   28 returned 5
+        1:  100-block  9
+call   29 returned 1
+call   30 returned 1
+branch 31 taken 0 (fallthrough)
+branch 32 taken 1
+    %%%%%:  100-block 10
+call   33 never executed
+branch 34 never executed
+branch 35 never executed
+    %%%%%:  100-block 11
+call   36 never executed
+branch 37 never executed
+branch 38 never executed
+    %%%%%:  100-block 12
+call   39 never executed
+branch 40 never executed
+branch 41 never executed
+    %%%%%:  100-block 13
+call   42 never executed
+branch 43 never executed
+branch 44 never executed
+    %%%%%:  100-block 14
+call   45 never executed
+call   46 never executed
+    $$$$$:  100-block 15
+    $$$$$:  100-block 16
+call   47 never executed
+    $$$$$:  100-block 17
+    $$$$$:  100-block 18
+    $$$$$:  100-block 19
+call   48 never executed
+    $$$$$:  100-block 20
+    $$$$$:  100-block 21
+call   49 never executed
+    $$$$$:  100-block 22
+    $$$$$:  100-block 23
+call   50 never executed
+        -:  101:      {"IP1", "A"},
+        -:  102:      {"IP3", "B"},
+        -:  103:      {"IP1", "C"},
+        -:  104:      {"IP1.1", "A"},
+        -:  105:      {"IP3", "B2"},
+        -:  106:      }));
+        -:  107:}
+------------------
+_ZN40SistemaDeMensajes_mensaje_cambio_ip_TestC2Ev:
+function _ZN40SistemaDeMensajes_mensaje_cambio_ip_TestC2Ev called 1 returned 100% blocks executed 100%
+        1:   81:TEST(SistemaDeMensajes, mensaje_cambio_ip) {
+        1:   81-block  0
+call    0 returned 1
+------------------
+        -:  108:
+        -:  109:#endif
+        -:  110:
+        -:  111:#if EJ >= 4
+        -:  112:
+        2:  113:TEST(Proxy, basico) {
+        1:  114:  Internet::internet().limpiar();
+        -:  115:
+        1:  116:  SistemaDeMensajes sdm;
+        1:  117:  sdm.registrarJugador(0, "IP1");
+        1:  118:  sdm.registrarJugador(2, "IP2");
+        1:  119:  Proxy* p0 = sdm.obtenerProxy(0);
+        1:  120:  Proxy* p2 = sdm.obtenerProxy(2);
+        1:  121:  p0->enviarMensaje("p0.1");
+        1:  122:  p2->enviarMensaje("p2.1");
+        -:  123:
+       5*:  124:  ASSERT_EQ(Internet::internet().mensajes(), list<Msg>({{"IP1", "p0.1"}, {"IP2", "p2.1"}}));
+        -:  125:}
+------------------
+_ZN17Proxy_basico_Test8TestBodyEv:
+function _ZN17Proxy_basico_Test8TestBodyEv called 1 returned 100% blocks executed 47%
+        1:  113:TEST(Proxy, basico) {
+        1:  114:  Internet::internet().limpiar();
+        1:  114-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  114-block  1
+call    3 returned 1
+branch  4 taken 1 (fallthrough)
+branch  5 taken 0 (throw)
+        -:  115:
+        1:  116:  SistemaDeMensajes sdm;
+        1:  116-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+    $$$$$:  116-block  1
+call    3 never executed
+        1:  117:  sdm.registrarJugador(0, "IP1");
+        1:  117-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  117-block  1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:  117-block  2
+call    7 returned 1
+call    8 returned 1
+    $$$$$:  117-block  3
+call    9 never executed
+    $$$$$:  117-block  4
+    $$$$$:  117-block  5
+call   10 never executed
+    $$$$$:  117-block  6
+        1:  118:  sdm.registrarJugador(2, "IP2");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  118-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:  118-block  1
+call    7 returned 1
+call    8 returned 1
+    $$$$$:  118-block  2
+call    9 never executed
+    $$$$$:  118-block  3
+    $$$$$:  118-block  4
+call   10 never executed
+    $$$$$:  118-block  5
+        1:  119:  Proxy* p0 = sdm.obtenerProxy(0);
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  120:  Proxy* p2 = sdm.obtenerProxy(2);
+        1:  120-block  0
+call    0 returned 1
+branch  1 taken 1 (fallthrough)
+branch  2 taken 0 (throw)
+        1:  121:  p0->enviarMensaje("p0.1");
+        1:  121-block  0
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  121-block  1
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:  121-block  2
+call    7 returned 1
+call    8 returned 1
+    $$$$$:  121-block  3
+call    9 never executed
+    $$$$$:  121-block  4
+    $$$$$:  121-block  5
+call   10 never executed
+    $$$$$:  121-block  6
+        1:  122:  p2->enviarMensaje("p2.1");
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  122-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:  122-block  1
+call    7 returned 1
+call    8 returned 1
+    $$$$$:  122-block  2
+call    9 never executed
+    $$$$$:  122-block  3
+    $$$$$:  122-block  4
+call   10 never executed
+    $$$$$:  122-block  5
+        -:  123:
+       5*:  124:  ASSERT_EQ(Internet::internet().mensajes(), list<Msg>({{"IP1", "p0.1"}, {"IP2", "p2.1"}}));
+call    0 returned 1
+call    1 returned 1
+branch  2 taken 1 (fallthrough)
+branch  3 taken 0 (throw)
+        1:  124-block  0
+call    4 returned 1
+branch  5 taken 1 (fallthrough)
+branch  6 taken 0 (throw)
+        1:  124-block  1
+call    7 returned 1
+branch  8 taken 1 (fallthrough)
+branch  9 taken 0 (throw)
+        1:  124-block  2
+call   10 returned 1
+branch 11 taken 1 (fallthrough)
+branch 12 taken 0 (throw)
+        1:  124-block  3
+call   13 returned 1
+branch 14 taken 1 (fallthrough)
+branch 15 taken 0 (throw)
+        1:  124-block  4
+call   16 returned 1
+branch 17 taken 1 (fallthrough)
+branch 18 taken 0 (throw)
+        2:  124-block  5
+call   19 returned 2
+        1:  124-block  6
+call   20 returned 1
+call   21 returned 1
+branch 22 taken 0 (fallthrough)
+branch 23 taken 1
+    %%%%%:  124-block  7
+call   24 never executed
+branch 25 never executed
+branch 26 never executed
+    %%%%%:  124-block  8
+call   27 never executed
+branch 28 never executed
+branch 29 never executed
+    %%%%%:  124-block  9
+call   30 never executed
+branch 31 never executed
+branch 32 never executed
+    %%%%%:  124-block 10
+call   33 never executed
+branch 34 never executed
+branch 35 never executed
+    %%%%%:  124-block 11
+call   36 never executed
+call   37 never executed
+    $$$$$:  124-block 12
+    $$$$$:  124-block 13
+call   38 never executed
+    $$$$$:  124-block 14
+    $$$$$:  124-block 15
+    $$$$$:  124-block 16
+call   39 never executed
+    $$$$$:  124-block 17
+    $$$$$:  124-block 18
+call   40 never executed
+    $$$$$:  124-block 19
+    $$$$$:  124-block 20
+call   41 never executed
+        -:  125:}
+------------------
+_ZN17Proxy_basico_TestC2Ev:
+function _ZN17Proxy_basico_TestC2Ev called 1 returned 100% blocks executed 100%
+        1:  113:TEST(Proxy, basico) {
+        1:  113-block  0
+call    0 returned 1
+------------------
+        -:  126:
+        -:  127:#endif
+        -:  128:
+        -:  129:#if EJ >= 6
+        -:  130:
+        2:  131:TEST(Proxy, cambio_ip) {
+        1:  132:  Internet::internet().limpiar();
+        -:  133:
+        1:  134:  SistemaDeMensajes sdm;
+        1:  135:  sdm.registrarJugador(0, "IP0");
+        1:  136:  sdm.registrarJugador(2, "IP2");
+        1:  137:  Proxy* p0 = sdm.obtenerProxy(0);
+        1:  138:  Proxy* p2 = sdm.obtenerProxy(2);
+        1:  139:  p0->enviarMensaje("p0.1");
+        1:  140:  p2->enviarMensaje("p2.1");
+        -:  141:
+       5*:  142:  ASSERT_EQ(Internet::internet().mensajes(), list<Msg>({{"IP0", "p0.1"}, {"IP2", "p2.1"}}));
+        -:  143:
+        1:  144:  sdm.desregistrarJugador(0);
+        1:  145:  ConexionJugador* x = new ConexionJugador("x");
+        -:  146:
+        1:  147:  sdm.registrarJugador(0, "IP0.1");
+        1:  148:  p0->enviarMensaje("p0.2");
+        6:  149:  ASSERT_EQ(Internet::internet().mensajes(), list<Msg>({{"IP0", "p0.1"}, {"IP2", "p2.1"}, {"IP0.1", "p0.2"}}));
+        -:  150:
+    #####:  151:  delete x;
+        -:  152:}
+        -:  153:
+        -:  154:#endif

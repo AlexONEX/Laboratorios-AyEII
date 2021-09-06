@@ -1,0 +1,24 @@
+        -:    0:Source:/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 3/ejercitacion_punteros/src/Proxy2.cpp
+        -:    0:Graph:/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 3/ejercitacion_punteros/cmake-build-default-wsl-coverage/CMakeFiles/ej6.dir/src/Proxy2.cpp.gcno
+        -:    0:Data:/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 3/ejercitacion_punteros/cmake-build-default-wsl-coverage/CMakeFiles/ej6.dir/src/Proxy2.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "Proxy2.h"
+        -:    2:
+function _ZN5ProxyC2EPP15ConexionJugador called 4 returned 100% blocks executed 100%
+        4:    3:Proxy::Proxy(ConexionJugador **conn) {
+        4:    4:    _conn = *conn;
+        4:    5:}
+function _ZN5Proxy13enviarMensajeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 5 returned 100% blocks executed 71%
+        5:    6:void Proxy::enviarMensaje(string msg) {
+        5:    7:    _conn->enviarMensaje(msg);
+        5:    7-block  0
+call    0 returned 5
+call    1 returned 5
+branch  2 taken 5 (fallthrough)
+branch  3 taken 0 (throw)
+        5:    7-block  1
+call    4 returned 5
+    $$$$$:    7-block  2
+call    5 never executed
+        5:    8:}

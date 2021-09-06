@@ -1,0 +1,62 @@
+        -:    0:Source:/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 3/ejercitacion_punteros/src/Internet.h
+        -:    0:Graph:/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 3/ejercitacion_punteros/cmake-build-default-wsl-coverage/CMakeFiles/ej6.dir/src/ConexionJugador.cpp.gcno
+        -:    0:Data:/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 3/ejercitacion_punteros/cmake-build-default-wsl-coverage/CMakeFiles/ej6.dir/src/ConexionJugador.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#ifndef INTERNET_H
+        -:    2:#define INTERNET_H
+        -:    3:
+        -:    4:#include <list>
+        -:    5:#include <utility>
+        -:    6:#include <string>
+        -:    7:
+        -:    8:using namespace std;
+        -:    9:
+        -:   10:using Msg = pair<string, string>;
+        -:   11:
+        -:   12:class Internet {
+        -:   13:  public:
+function _ZN8Internet8internetEv called 0 returned 0% blocks executed 0%
+    #####:   14:    static Internet& internet() {
+    #####:   15:        static Internet _internet;
+    %%%%%:   15-block  0
+branch  0 never executed
+branch  1 never executed
+    %%%%%:   15-block  1
+call    2 never executed
+branch  3 never executed
+branch  4 never executed
+    %%%%%:   15-block  2
+call    5 never executed
+branch  6 never executed
+branch  7 never executed
+    %%%%%:   15-block  3
+call    8 never executed
+call    9 never executed
+    $$$$$:   15-block  4
+branch 10 never executed
+branch 11 never executed
+    $$$$$:   15-block  5
+call   12 never executed
+    #####:   16:        return _internet;
+    %%%%%:   16-block  0
+    %%%%%:   16-block  1
+        -:   17:    }
+        -:   18:
+        -:   19:    void limpiar();
+        -:   20:    void mensaje(string ip, string mensaje);
+        -:   21:    const list<Msg>& mensajes() const;
+        -:   22:
+        -:   23:protected:
+        -:   24:    Internet();
+        -:   25:    Internet(const Internet&);
+        -:   26:    Internet& operator=(const Internet&);
+        -:   27:
+        -:   28:  private:
+        -:   29:
+        -:   30:    list<Msg> _mensajes;
+        -:   31:
+        -:   32:    static Internet* _internet;
+        -:   33:};
+        -:   34:
+        -:   35:#endif

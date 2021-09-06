@@ -1,0 +1,6 @@
+/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 1/ejercitacion_uso_clases/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 1/ejercitacion_uso_clases/cmake-build-debug/CMakeFiles/edit_cache.dir
+/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 1/ejercitacion_uso_clases/cmake-build-debug/CMakeFiles/gtest_main.dir
+/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 1/ejercitacion_uso_clases/cmake-build-debug/CMakeFiles/gtest.dir
+/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 1/ejercitacion_uso_clases/cmake-build-debug/CMakeFiles/tests_ejercitacion.dir
+/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 1/ejercitacion_uso_clases/cmake-build-debug/CMakeFiles/tests_algobot.dir

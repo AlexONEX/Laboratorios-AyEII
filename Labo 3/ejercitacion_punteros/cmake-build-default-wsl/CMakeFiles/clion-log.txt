@@ -1,0 +1,5 @@
+/usr/bin/cmake -G "CodeBlocks - Unix Makefiles" "/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 3/ejercitacion_punteros"
+Test:src/Internet.cppsrc/ConexionJugador.cpp
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 3/ejercitacion_punteros/cmake-build-default-wsl

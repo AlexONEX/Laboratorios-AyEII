@@ -1,0 +1,40 @@
+        -:    0:Source:/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 3/ejercitacion_punteros/src/Internet.cpp
+        -:    0:Graph:/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 3/ejercitacion_punteros/cmake-build-default-wsl-coverage/CMakeFiles/ej6.dir/src/Internet.cpp.gcno
+        -:    0:Data:/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 3/ejercitacion_punteros/cmake-build-default-wsl-coverage/CMakeFiles/ej6.dir/src/Internet.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "Internet.h"
+function _ZN8InternetC2Ev called 1 returned 100% blocks executed 100%
+        1:    2:Internet::Internet() : _mensajes() {
+        1:    2-block  0
+call    0 returned 1
+        1:    3:}
+        -:    4:
+function _ZN8Internet7limpiarEv called 5 returned 100% blocks executed 100%
+        5:    5:void Internet::limpiar() {
+        5:    6:  _mensajes = list<pair<string, string>>();
+        5:    6-block  0
+call    0 returned 5
+call    1 returned 5
+call    2 returned 5
+        5:    7:}
+        -:    8:
+function _ZN8Internet7mensajeENSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEES5_ called 15 returned 100% blocks executed 71%
+       15:    9:void Internet::mensaje(string ip, string mensaje) {
+       15:   10:  _mensajes.push_back(make_pair(ip, mensaje));
+       15:   10-block  0
+call    0 returned 15
+call    1 returned 15
+branch  2 taken 15 (fallthrough)
+branch  3 taken 0 (throw)
+       15:   10-block  1
+call    4 returned 15
+    $$$$$:   10-block  2
+call    5 never executed
+       15:   11:}
+        -:   12:
+function _ZNK8Internet8mensajesB5cxx11Ev called 8 returned 100% blocks executed 100%
+        8:   13:const list<Msg>& Internet::mensajes() const {
+        8:   14:  return _mensajes;
+        8:   14-block  0
+        -:   15:}

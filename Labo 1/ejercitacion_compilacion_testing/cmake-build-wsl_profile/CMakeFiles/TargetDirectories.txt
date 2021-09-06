@@ -1,0 +1,9 @@
+/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 1/ejercitacion_compilacion_testing/cmake-build-wsl_profile/CMakeFiles/rebuild_cache.dir
+/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 1/ejercitacion_compilacion_testing/cmake-build-wsl_profile/CMakeFiles/edit_cache.dir
+/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 1/ejercitacion_compilacion_testing/cmake-build-wsl_profile/CMakeFiles/solucion_testing.dir
+/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 1/ejercitacion_compilacion_testing/cmake-build-wsl_profile/CMakeFiles/ej3.dir
+/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 1/ejercitacion_compilacion_testing/cmake-build-wsl_profile/CMakeFiles/ej2.dir
+/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 1/ejercitacion_compilacion_testing/cmake-build-wsl_profile/CMakeFiles/ej_testing.dir
+/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 1/ejercitacion_compilacion_testing/cmake-build-wsl_profile/CMakeFiles/ej1.dir
+/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 1/ejercitacion_compilacion_testing/cmake-build-wsl_profile/CMakeFiles/gtest_main.dir
+/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 1/ejercitacion_compilacion_testing/cmake-build-wsl_profile/CMakeFiles/gtest.dir

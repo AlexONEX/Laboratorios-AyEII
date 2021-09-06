@@ -1,0 +1,162 @@
+        -:    0:Source:/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 3/ejercitacion_punteros/src/SistemaDeMensajes.cpp
+        -:    0:Graph:/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 3/ejercitacion_punteros/cmake-build-default-wsl-coverage/CMakeFiles/ej6.dir/src/SistemaDeMensajes.cpp.gcno
+        -:    0:Data:/mnt/c/Users/aschw/CLionProjects/Algoritmos 2/Labo 3/ejercitacion_punteros/cmake-build-default-wsl-coverage/CMakeFiles/ej6.dir/src/SistemaDeMensajes.cpp.gcda
+        -:    0:Runs:1
+        -:    0:Programs:1
+        -:    1:#include "SistemaDeMensajes.h"
+        -:    2:#include "ConexionJugador.h"
+        -:    3:
+function _ZN17SistemaDeMensajesC2Ev called 10 returned 100% blocks executed 83%
+       10:    4:SistemaDeMensajes::SistemaDeMensajes(){
+       10:    4-block  0
+call    0 returned 10
+    $$$$$:    4-block  1
+call    1 never executed
+       50:    5:    for(auto & _conn : _conns){
+       50:    5-block  0
+branch  0 taken 40 (fallthrough)
+branch  1 taken 10
+       40:    6:        _conn = nullptr;
+       40:    6-block  0
+        -:    7:    }
+       50:    8:    for(int i=0; i<4; i++){
+       10:    8-block  0
+       50:    8-block  1
+branch  0 taken 40 (fallthrough)
+branch  1 taken 10
+       40:    9:        _proxys.push_back(nullptr);
+       40:    9-block  0
+call    0 returned 40
+branch  1 taken 40 (fallthrough)
+branch  2 taken 0 (throw)
+       40:    9-block  1
+    $$$$$:    9-block  2
+        -:   10:    }
+       10:   11:}
+       10:   11-block  0
+function _ZN17SistemaDeMensajes16registrarJugadorEiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 15 returned 100% blocks executed 69%
+       15:   12:void SistemaDeMensajes::registrarJugador(int id, string ip) {
+       15:   13:    delete _conns[id];
+       15:   13-block  0
+branch  0 taken 2 (fallthrough)
+branch  1 taken 13
+        2:   13-block  1
+call    2 returned 2
+call    3 returned 2
+       15:   14:    _conns[id] = new ConexionJugador(ip) ;
+       15:   14-block  0
+call    0 returned 15
+call    1 returned 15
+branch  2 taken 15 (fallthrough)
+branch  3 taken 0 (throw)
+       15:   14-block  1
+call    4 returned 15
+branch  5 taken 15 (fallthrough)
+branch  6 taken 0 (throw)
+       15:   14-block  2
+call    7 returned 15
+    $$$$$:   14-block  3
+call    8 never executed
+    $$$$$:   14-block  4
+call    9 never executed
+       15:   15:}
+function _ZNK17SistemaDeMensajes10registradoEi called 11 returned 100% blocks executed 100%
+       11:   16:bool SistemaDeMensajes::registrado(int id) const {
+       11:   17:    return _conns[id] != nullptr;
+       11:   17-block  0
+        -:   18:}
+function _ZN17SistemaDeMensajes13enviarMensajeEiNSt7__cxx1112basic_stringIcSt11char_traitsIcESaIcEEE called 10 returned 100% blocks executed 71%
+       10:   19:void SistemaDeMensajes::enviarMensaje(int id, string mensaje) {
+       10:   20:    _conns[id]->enviarMensaje(mensaje);
+       10:   20-block  0
+call    0 returned 10
+call    1 returned 10
+branch  2 taken 10 (fallthrough)
+branch  3 taken 0 (throw)
+       10:   20-block  1
+call    4 returned 10
+    $$$$$:   20-block  2
+call    5 never executed
+       10:   21:}
+        -:   22:
+function _ZNK17SistemaDeMensajes9ipJugadorB5cxx11Ei called 3 returned 100% blocks executed 100%
+        3:   23:string SistemaDeMensajes::ipJugador(int id) const {
+        3:   24:    return _conns[id]->ip();
+        3:   24-block  0
+call    0 returned 3
+        -:   25:}
+function _ZN17SistemaDeMensajes19desregistrarJugadorEi called 2 returned 100% blocks executed 100%
+        2:   26:void SistemaDeMensajes::desregistrarJugador(int id) {
+        2:   27:    delete _conns[id];
+        2:   27-block  0
+branch  0 taken 2 (fallthrough)
+branch  1 taken 0
+        2:   27-block  1
+call    2 returned 2
+call    3 returned 2
+        2:   28:    _conns[id] = nullptr;
+        2:   29:}
+        -:   30:#if EJ == 4
+        -:   31:Proxy* SistemaDeMensajes::obtenerProxy(int id){
+        -:   32:    Proxy* pr_j = new Proxy(this->_conns[id]);
+        -:   33:    this->_proxys.push_back(pr_j);
+        -:   34:    return  pr_j;
+        -:   35:};
+        -:   36:#elif EJ == 6
+function _ZN17SistemaDeMensajes12obtenerProxyEi called 4 returned 100% blocks executed 75%
+        4:   37:Proxy* SistemaDeMensajes::obtenerProxy(int id){
+        4:   38:    auto* pj = new Proxy( &(_conns[id]));
+        4:   38-block  0
+call    0 returned 4
+branch  1 taken 4 (fallthrough)
+branch  2 taken 0 (throw)
+        4:   38-block  1
+call    3 returned 4
+branch  4 taken 4 (fallthrough)
+branch  5 taken 0 (throw)
+    $$$$$:   38-block  2
+call    6 never executed
+        4:   39:    _proxys.push_back(pj);
+        4:   39-block  0
+call    0 returned 4
+branch  1 taken 4 (fallthrough)
+branch  2 taken 0 (throw)
+        4:   40:    return  pj;
+        4:   40-block  0
+        4:   40-block  1
+        -:   41:};
+        -:   42:#endif
+function _ZN17SistemaDeMensajesD2Ev called 10 returned 100% blocks executed 100%
+       10:   43:SistemaDeMensajes::~SistemaDeMensajes(){
+       10:   43-block  0
+call    0 returned 10
+       50:   44:    for(auto & _conn : _conns){
+       10:   44-block  0
+       50:   44-block  1
+branch  0 taken 40 (fallthrough)
+branch  1 taken 10
+       40:   44-block  2
+       40:   45:        delete _conn;
+       40:   45-block  0
+branch  0 taken 11 (fallthrough)
+branch  1 taken 29
+       11:   45-block  1
+call    2 returned 11
+call    3 returned 11
+        -:   46:    }
+       54:   47:    for(auto &_proxies: _proxys){
+       10:   47-block  0
+call    0 returned 10
+call    1 returned 10
+       54:   47-block  1
+call    2 returned 54
+branch  3 taken 44 (fallthrough)
+branch  4 taken 10
+       44:   47-block  2
+call    5 returned 44
+call    6 returned 44
+       44:   48:        delete _proxies;
+call    0 returned 44
+        -:   49:    }
+       10:   50:}
+        -:   51:
